@@ -18,11 +18,11 @@ function recuperacion() {
 }
 
 function calculoNotas() {
-   let promedioInicial = obtenerNotas(); // Get the average of the first set of notes
+   let promedioInicial = obtenerNotas(); 
    if (promedioInicial >= 3) {
       console.log("Pasastes!");
    } else {
-      let promedioRecuperacion = recuperacion(); // Get the average of the recovery notes
+      let promedioRecuperacion = recuperacion(); 
       if (promedioRecuperacion >= 3) {
          console.log("Pasastes!");
       } else {
@@ -31,4 +31,4 @@ function calculoNotas() {
    }
 }
 
-calculoNotas(); // This will run the whole process
+calculoNotas(); 
