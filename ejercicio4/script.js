@@ -1,5 +1,4 @@
 
-
 function texto(reglas){
 return reglas = alert( "Debes de adivinar un número secreto del 1 al 10. Tienes 3 intentos. Si lo adivinas, ganas; si no, pierdes." )
 }
